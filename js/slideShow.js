@@ -1,4 +1,5 @@
 var i  = true;
+
 slideShow();
       
 function slideShow() {
