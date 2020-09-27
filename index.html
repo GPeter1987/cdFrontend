@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
   <head>
     <meta charset="UTF-8">
     <!-- Resposivity -->
@@ -8,6 +8,7 @@
     <!--  <link type="text/css" href="css/index.css" rel="stylesheet"> -->
      <link type="text/css" href="css/indexBs.css" rel="stylesheet">
     <!-- JS         -->
+      
     <!-- Fonts      -->
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
       <!--
@@ -94,27 +95,8 @@
 
 <!-- JS -->
     
-    <script>
-      var i  = true;
-      slideShow();
-      
-      function slideShow() {
-        var c1 = document.getElementById("content1");
-        var c2 = document.getElementById("content2");
-
-        if(i) {
-          c2.style.display ="none";
-          c1.style.display = "block";
-          i = false;
-          setTimeout(slideShow, 9000);
-        }
-        else{
-          c1.style.display ="none";
-          c2.style.display ="block";
-          i = true;
-          setTimeout(slideShow, 9000);
-        }
-      }
+    <script type="text/javascript"  src="js/slideShow.js"> 
+        slideShow();
     </script>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
