@@ -19,3 +19,18 @@ function slideShow() {
         setTimeout(slideShow, 9000);
     }
 }
+
+changeText();
+
+function changeText() {
+    var oriText = document.getElementById("slideText").innerHTML;
+    var repText = document.getElementById("news1").textContent;    
+    
+    oriText = repText;  
+}
+
+function changePic() {
+    var news1Pic = document.getElementById("news1Pic").src;    
+    
+    document.getElementById("newsPic1").src = news1Pic;
+}

@@ -79,13 +79,14 @@
               <div id="content2" class="row">
                 <div class="col text-center mb-3">
                   <h1 class="text text-light">Hírek</h1>
-                  <p class="text text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                  <p id="slideText" class="text text-light">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                     <a class="btn btn-danger" href="news.html">Tovább...</a>
                     <hr class="border-light">
                 </div>
 
                 <div class="col">
-                  <img class="img-fluid" src="assets/testSlide2.png" >
+                  <img id="newsPic1" class="img-fluid" src="">
                 </div>
               </div>
           
@@ -102,6 +103,7 @@
     
     <script type="text/javascript"  src="js/slideShow.js"> 
         slideShow();
+        changeText();
     </script>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
