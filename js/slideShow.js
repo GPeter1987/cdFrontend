@@ -24,9 +24,15 @@ changeText();
 
 function changeText() {
     var oriText = document.getElementById("slideText").innerHTML;
-    var repText = document.getElementById("news1").textContent;    
+    console.log(oriText);
     
-    oriText = repText;  
+    var repText = document.getElementById("news1").innerHTML;   
+    
+    console.log(repText);
+    
+    oriText = '<p>' + repText + '</p>';
+    
+    
 }
 
 function changePic() {
