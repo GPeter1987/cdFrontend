@@ -1,8 +1,7 @@
 var i  = true;
-
-slideShow();
       
 function slideShow() {
+    
     var c1 = document.getElementById("content1");
     var c2 = document.getElementById("content2");
 
@@ -19,24 +18,4 @@ function slideShow() {
         setTimeout(slideShow, 9000);
     }
 }
-
-changeText();
-
-function changeText() {
-    var oriText = document.getElementById("slideText").innerHTML;
-    console.log(oriText);
-    
-    var repText = document.getElementById("news1").innerHTML;   
-    
-    console.log(repText);
-    
-    oriText = '<p>' + repText + '</p>';
-    
-    
-}
-
-function changePic() {
-    var news1Pic = document.getElementById("news1Pic").src;    
-    
-    document.getElementById("newsPic1").src = news1Pic;
-}
+slideShow();
